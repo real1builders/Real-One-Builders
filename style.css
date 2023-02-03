@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    color: #ffffff;
+    letter-spacing: 3px;
+    background: linear-gradient(0deg, rgba(35,36,38,1) 0%, rgba(237,11,14,1) 50%, rgba(35,36,38,1) 100%);
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+	background-color: #232426;
+    z-index: 10;
+    padding: 5px;
+}
+
+.nav ul {
+    padding: 0px 10rem;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+#title, .nav a strong, .nav img{
+	float: left;
+    color: #ed0b0e;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav img {
+    height: 40px;
+    padding: 3px 0px 0px 10px;
+}
+
+.nav a {
+    float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 6px 20px;
+	text-decoration: none;
+}
+
+.nav .sections a:hover:after {
+    content: '';
+    margin: 5px auto;
+    width: 80%;
+    height: 2px;
+    display: block;
+    background-color: #ffffff;
+    animation: 1s fadein;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    vertical-align: center;
+    padding: 70px;
+}
+
+#textbod {
+    margin-top: 10%;
+    padding: 0px 70px;
+}
+
+#textbod p {
+    font-family: 'Righteous', cursive;
+    margin-left: 15px;
+    font-size: 26px;
+}
+
+#textbod p::after {
+    content: '';
+    width: 30%;
+    margin: 3px 10px;
+    height: 3px;
+    display: inline-block;
+    background-color: #ed0b0e;
+}
+
+strong {
+    color: #ed0b0e;
+}
+
+#images {
+    margin-top: 30px;
+}
+
+.mySlides {
+    display: none;
+    border-radius: 10px;
+    height: 400px;
+    margin: 30px 30px 30px 0px;
+    box-shadow: -2px 2px 10px #232426, 3px 4px 4px #ffffffbb;
+}
+
+#home-section {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    color: #dee1e3;
+}
+
+#home-section h1{
+    text-shadow: 2px 2px 3px rgb(143, 143, 143);
+    letter-spacing: 2px;
+}
+
+/* BACKGROUND FOR MYSTERIES */
+.child-1 {
+    width: 100%;
+    height: 230vh;
+    position: absolute;
+    left: 0;
+    background-image: url(https://image.cnbcfm.com/api/v1/image/106811484-1608045351058-gettyimages-1126750618-dsc_1540.jpeg?v=1608045431&w=1600&h=900); 
+    opacity: .85;
+    filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-2 {
+    position: relative;
+    z-index: 1;
+    padding: 50px 30px;
+}
+
+.child-2 button {
+    background-color:brown;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 1px 2px 2px #e9dfddbb;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+}
+
+.child-2 h1 {
+    font-size: 5rem;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding: 30px 70px;
+    gap: 50px;  
+}
+
+.content img { 
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 10px 12px 5px rgb(95, 95, 95);
+}
+
+.content strong{
+    font-size: x-large;
+    text-shadow: 1px 2px 2px #e9dfddbb;
+}
+
+#services {
+    background-color: rgba(235, 145, 10, 0.575);
+    height: 75vh;
+    padding: 3rem 5rem;
+}
+
+#services .services-title p {
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.services-title p span {
+    color: #232426;
+}
+
+#services .services-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.services-body h1::after {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    content: '';
+    width: 10px;
+}
+
+.services-body .left, .services-body .right {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.left, .right {
+    text-align: start;
+}
+
+#contact {
+    color: #232426;
+    background-color: #dee1e3;
+    opacity: 0.9;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 150px 15px;
+    height: 60vh;
+}
+
+#contact h2 {
+    font-size: 5rem;
+    margin: 10px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent > .child {
+    padding: 10px;
+    flex: 30%;
+}
+
+#about{
+    background-color: #232426;
+    color: #dee1e3;
+    display: flex;
+    flex: 1 1;
+    margin-top: -8.5rem;
+    padding: 20px;
+}
+
+#about p {
+    padding: 12px 20px;
+}
+
+@keyframes fadein {
+    0% {
+        width: 0%;
+    }
+    100% {
+       width: 80%; 
+    }
+}
