@@ -270,19 +270,26 @@ strong {
     }
 
     .child-1 {
-        width: 250%;
-        height: 360vh;
+        width: 300%;
+        height: 270vh;
+    }
+
+    .child-2 {
+        width: 300%;
     }
 
     .content img { 
         height: 250px;
-        width: 250px;
+        width: 350px;
     }
 
     .content {
         flex-wrap: wrap;
         padding: 10px;
+        margin: auto;
         width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     #services {
