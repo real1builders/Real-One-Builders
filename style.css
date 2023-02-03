@@ -253,3 +253,44 @@ strong {
        width: 80%; 
     }
 }
+
+/* FOR MOBILE SCREENS */
+@media only screen and (max-width: 480px) { 
+    .sections {
+        width: 120%;
+    }
+
+    #main {
+        width: 250%;
+    }
+
+    #main #images img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .child-1 {
+        width: 250%;
+        height: 360vh;
+    }
+
+    .content img { 
+        height: 250px;
+        width: 250px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #services {
+        width: 250%;
+        height: 95vh;
+    }
+
+    #contact {
+        width: 250%;
+    }
+}
