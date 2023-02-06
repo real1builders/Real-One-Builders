@@ -66,6 +66,18 @@ body {
     justify-content: space-evenly;
     vertical-align: center;
     padding: 70px;
+} 
+
+.loginbox{
+    width: 600px;
+    height: 5px;
+    color: rgb(2, 4, 39);
+    top: 70%;
+    left: 25%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px 
 }
 
 #textbod {
@@ -300,4 +312,4 @@ strong {
     #contact {
         width: 250%;
     }
-}
+}  #about 
