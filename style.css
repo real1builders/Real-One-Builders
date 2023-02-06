@@ -78,7 +78,9 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 60px 40px 
+    
 }
+
 #loginbox {
     background-size: auto;
 }
@@ -184,7 +186,7 @@ strong {
 
 #services {
     background-color: rgba(235, 145, 10, 0.575);
-    height: 75vh;
+    height: 80vh;
     padding: 3rem 5rem;
 }
 
