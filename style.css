@@ -10,7 +10,7 @@ body {
     font-family: 'Righteous', cursive;
     color: #ffffff;
     letter-spacing: 3px;
-    background: linear-gradient(0deg, rgba(35,36,38,1) 0%, rgba(237,11,14,1) 50%, rgba(35,36,38,1) 100%);
+    background: linear-gradient(0deg, rgba(35,36,38,1) 0%, rgb(193, 61, 63) 50%, rgba(35,36,38,1) 100%);
 }
 
 .nav {
@@ -71,13 +71,16 @@ body {
 .loginbox{
     width: 600px;
     height: 5px;
-    color: rgb(2, 4, 39);
-    top: 70%;
+    color: rgb(2, 2, 2);
+    top: 60%;
     left: 25%;
     position:absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 60px 40px 
+}
+#loginbox {
+    background-size: auto;
 }
 
 #textbod {
